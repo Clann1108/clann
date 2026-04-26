@@ -366,7 +366,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: 700; line-height: 1.2; color: var(--navy); }
 }
 .client-logo {
   height: 40px;
-  width: 140px;
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
