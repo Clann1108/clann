@@ -49,10 +49,15 @@
         <div class="card-glass p-4 p-lg-5">
           <h3 class="mb-4" style="color:var(--navy); font-weight:700;">Send Us a Message</h3>
           <form onsubmit="event.preventDefault(); alert('Thank you for reaching out! We will contact you within 48 hours.');">
+          
             <div class="row g-3">
               <div class="col-md-6">
                 <label class="form-label" style="font-size:.85rem; font-weight:600; color:var(--gray-600);">First Name</label>
                 <input type="text" class="form-control" placeholder="John" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" style="font-size:.85rem; font-weight:600; color:var(--gray-600);">Upload Resume</label>
+                <input type="file" class="form-control" placeholder="Resume" required>
               </div>
               <div class="col-md-6">
                 <label class="form-label" style="font-size:.85rem; font-weight:600; color:var(--gray-600);">Last Name</label>
