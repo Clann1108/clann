@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: 700; line-height: 1.2; color: var(--navy); }
 
 .section-label {
   display: inline-block;
-  font-size: .75rem;
+  font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: 700; line-height: 1.2; color: var(--navy); }
 }
 
 .section-title {
-  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-size: clamp(1rem, 3vw, 2rem);
   font-weight: 800;
   color: var(--navy);
   margin-bottom: 1rem;
@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: 700; line-height: 1.2; color: var(--navy); }
 
 .section-desc {
   font-size: 1.05rem;
-  color: var(--gray-600);
+  color: var(--gray-400);
   max-width: 640px;
   margin: 0 auto 2.5rem;
   line-height: 1.7;
